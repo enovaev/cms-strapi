@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_templates_ufcs",
+  "info": {
+    "displayName": "ufc-template",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_pc": {
+      "type": "text"
+    },
+    "title_mob": {
+      "type": "text"
+    },
+    "subtitle_pc": {
+      "type": "text"
+    },
+    "subtitle_mob": {
+      "type": "text"
+    },
+    "background_pc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "background_mob": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "logo_bb_ufc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "logo_event": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "landing_name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "template": {
+      "type": "dynamiczone",
+      "components": [
+        "templates.wheel-template",
+        "templates.ufc"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "workgroup": {
+      "type": "enumeration",
+      "enum": [
+        "curacao:cis",
+        "none:mexico",
+        "sigap:brazil"
+      ],
+      "required": true,
+      "default": "curacao:cis"
+    },
+    "meta_title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "meta_description": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

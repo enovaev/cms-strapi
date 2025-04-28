@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_templates_wheel_templates",
+  "info": {
+    "displayName": "wheel-template",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_pc": {
+      "type": "string"
+    },
+    "locales": {
+      "type": "blocks"
+    }
+  }
+}

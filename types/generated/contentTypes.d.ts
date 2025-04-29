@@ -413,6 +413,11 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
       ['templates.wheel-template', 'templates.ufc']
     > &
       Schema.Attribute.Required &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }> &
       Schema.Attribute.SetMinMax<
         {
           max: 1;

@@ -28,7 +28,12 @@
         "templates.ufc"
       ],
       "required": true,
-      "max": 1
+      "max": 1,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "workgroup": {
       "type": "enumeration",
